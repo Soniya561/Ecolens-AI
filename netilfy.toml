@@ -1,9 +1,13 @@
 [build]
-base = "frontend"
-command = "npm run build"
-publish = "dist"
+  base = "frontend"
+  command = "npm install && npx vite build"
+  publish = "dist"
 
-# Optional: set environment variables if needed
-#[[plugins]]
-# package = "@netlify/plugin-functions-core"
+[build.environment]
+  NODE_VERSION = "18"
+  REACT_APP_API_URL = "https://api.example.com"
 
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
