@@ -1,0 +1,13 @@
+[build]
+  # Base directory where your frontend code lives
+  base = "frontend"
+
+  # Command to build your site
+  command = "npx vite build"
+
+  # Directory where the built files will be published
+  publish = "frontend/dist"
+
+# Optional: set environment variables if needed
+#[[plugins]]
+# package = "@netlify/plugin-functions-core"
