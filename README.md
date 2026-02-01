@@ -141,6 +141,7 @@ Soniya V – Frontend / UI
 Shalini S – Data / Research
 
 Sharmili-Map integration,API connections
+
 🌍 Sustainability Impact
 
 EcoLens AI empowers users to:
